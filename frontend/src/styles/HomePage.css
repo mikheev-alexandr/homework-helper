@@ -1,0 +1,91 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .homepage-header {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homepage-header h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .homepage-header p {
+    font-size: 18px;
+  }
+  
+  .homepage-main {
+    padding: 20px;
+  }
+  
+  .homepage-info {
+    margin-bottom: 40px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homepage-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .info ul {
+    list-style-type: disc;
+    margin: 10px 0 10px 20px;
+    text-align: left;
+  }
+  
+  .homepage-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .homepage-button {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .homepage-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .homepage-footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+    padding: 10px;
+  }  

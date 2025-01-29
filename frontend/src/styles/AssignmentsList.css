@@ -1,0 +1,147 @@
+.actions-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.assignments-list-container {
+  font-family: 'Roboto', sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.assignments-list-container h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.assignments-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.assignment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.assignment-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-info {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.assignment-info p {
+  margin: 8px 0;
+}
+
+.assignment-info p strong {
+  font-size: 18px;
+  color: #34495e;
+}
+
+.assignment-info p.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.assignment-info p.description {
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+.assignment-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.details-button, .delete-button, .button {
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.details-button, .button {
+  background-color: #007bff;
+  color: white;
+}
+
+.details-button:hover, .button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #b21f2d;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .assignment-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .assignment-info {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .assignment-actions {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .create-button {
+    width: 100%;
+    text-align: center;
+  }
+}
