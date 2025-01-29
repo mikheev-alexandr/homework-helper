@@ -1,0 +1,100 @@
+/* Контейнер формы */
+.attach-student-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Заголовок */
+  .attach-student-container h1 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Форма */
+  .attach-student-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Метки и поля ввода */
+  .attach-student-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .attach-student-container input,
+  .attach-student-container select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Радиокнопки */
+  .attach-student-container .radio-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .attach-student-container .radio-group input {
+    margin-right: 5px;
+  }
+  
+  /* Кнопки */
+  .attach-student-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .attach-student-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Ошибки */
+  .error-message {
+    color: #ff0000;
+    font-size: 13px;
+    margin-top: -10px;
+  }
+  
+  /* Ответы сервера */
+  .response-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaf7ea;
+    color: #2d662d;
+    border: 1px solid #a3d8a3;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Кнопка возврата */
+  .attach-student-container .back-button {
+    background-color: #6c757d;
+    margin-top: 10px;
+  }
+  
+  .attach-student-container .back-button:hover {
+    background-color: #5a6268;
+  }
+  

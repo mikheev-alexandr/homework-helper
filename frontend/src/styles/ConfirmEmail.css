@@ -1,0 +1,22 @@
+.confirm-email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .success {
+    color: #28a745;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: #dc3545;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
